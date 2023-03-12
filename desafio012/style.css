@@ -1,0 +1,139 @@
+@font-face {
+    font-family: 'passion one';
+    src: url('Passion_One/PassionOne-Bold.ttf');
+
+    font-family: 'font2';
+    src: url('Sriracha/Sriracha-Regular.ttf');
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    padding: 0;
+    margin: 0;
+    height: 200px;
+    background-color: black;
+    color: white;
+}
+
+header > h1 {
+    margin: 0;
+    padding-top: 40px;
+    font-size: 65px;
+    font-family: 'passion one';
+    font-weight: bold;
+    text-align: center;
+}
+
+header > p {
+    font-size: 20px;
+    text-align: center;
+}
+
+header > p > a {
+    font-size: 13px;
+    font-family: Verdana, Tahoma, sans-serif;
+    color: white;
+    text-decoration: none;
+}
+
+#link {
+    font-family: Verdana;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+#art1 {
+   
+    background-attachment: fixed;
+    padding-top: 30px;    
+    font-size: 24px;
+    font-family: 'font2';
+    margin: 0;
+}
+
+#art2 {
+    padding-left: 30px;
+    height: 700px;
+    padding-bottom: 100px;
+}
+
+article {
+    padding-left: 0px;
+    margin: 0;
+}
+
+main {
+    font-family: 'font2';
+    font-size: 24px;
+    padding-left: 30px;
+    height: 300px;
+    padding-bottom: 100px;
+}
+
+main#foto > p {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.486);
+    max-width: 300px;
+    color: white;
+}
+
+main#foto2 > P {
+    font-family: 'font2';
+    font-size: 24px;
+    line-height: 40px;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.486);
+    max-width: 300px;
+    color: white;
+}
+
+#main3{
+    height: 550px;
+}
+
+img {
+    
+    max-width: 640px;
+}
+
+#img1 {
+        background-attachment: fixed;
+}
+
+main#foto {
+    background-size: cover;
+    background-image: url('imagens/background001.jpg');
+    background-attachment: fixed;
+    background-position: top right;
+    margin: 0;
+    
+    
+}
+
+main#foto2 {
+    background-size: cover;
+    background-image: url('imagens/background002.jpg');
+    background-attachment: fixed;
+    background-position: top right;
+    margin: 0;
+}
+
+#poema {
+    font-family: 'font2';
+    font-size: 24px;
+}
+
+footer {
+    margin-bottom: 0;
+    color: white;
+    height: 20px;
+    text-align: center;
+    padding-left: 3px;
+    padding-bottom: 3px;
+    background-color: black;
+}
