@@ -99,6 +99,7 @@ main#foto2 > P {
 img {
     
     max-width: 640px;
+    max-height: 450px;
 }
 
 #img1 {
