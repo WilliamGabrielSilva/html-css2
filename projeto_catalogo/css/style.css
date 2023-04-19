@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@700&family=Roboto:wght@400;700&family=Sriracha&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    outline: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+:root {
+    --orange: #f78b00;
+    --blue: #00285f;
+    --gray: #ededed;
+}
+
+html,body {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+header {
+    width: 100%;
+    height: 500px;
+    background: var(--orange);
+}
