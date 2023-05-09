@@ -9,16 +9,33 @@
         * {
             font-family: Arial, Helvetica, sans-serif;
         }
+        .container {
+            width: 200px;
+            background-color: dimgray;
+            padding: 5px;
+            border-radius: 6px;
+            margin: auto;
+        }
+        input {
+            border-radius: 5px;
+            border: none;
+            background-color: darkgray
+        }
+        .nome{
+            color: white;
+        }
     </style>
 </head>
 <body>
     <h1>Meu primeiro furmulário</h1>
-    <form action="cadastro.php" autocomplete="off">
-        <p><label for="inome">Nome:</label> 
-            <input type="text" name="nome" id="inome"></p> 
-        <p><label for="isobrenome">Sobrenome:</label> 
-            <input type="text" name="sobrenome" id="isobrenome"></p> 
-        <p><input type="submit" value="Enviar"></p>
-    </form>
+    <div class="container">
+        <form action="cadastro.php" method="POST" autocomplete="off">
+            <p class="nome"><label for="inome">Nome:</label>
+                <input type="text" name="nome" id="inome"></p>
+            <p class="nome"><label for="isobrenome">Sobrenome:</label>
+                <input type="text" name="sobrenome" id="isobrenome"></p>
+            <p class="nome"><input type="submit" value="Enviar"></p>
+        </form>
+    </div>
 </body>
 </html>
