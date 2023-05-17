@@ -1,0 +1,18 @@
+body {
+    margin: 0;
+}
+
+.barra-pesquisa {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    ///////////////850222222222222222
+}
+
+.botao {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+
+}
