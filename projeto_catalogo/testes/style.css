@@ -30,7 +30,7 @@ body {
     line-height: 40px;
     width: 0;
     transition: 1s;
-    font-family: 'Open Sans';
+    font-family: 'Open Sans', sans-serif;
 }
 
 ::-webkit-input-placeholder {

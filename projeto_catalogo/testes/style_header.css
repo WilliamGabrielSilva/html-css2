@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    height: 100vh;
+    width: 100vh;
+}
+
+header {
+    background-image: url(pngtree-background-of-a-landscape-of-dusk-in-the-mountains-image_309828.jpg);
+    background-repeat: no-repeat;
+    background-size: 1700px 300px;
+    width: 1700px;
+    height: 300px;
+}
+
+
+.barra_pesquisa {
+    position: absolute;
+    background: #0a1b2d;
+    top: 230px;
+    left: 20px;
+    height: 30px;
+    padding: 10px;
+    border-radius: 40px;
+    display: flex;
+}
+
+.pesquisa_txt {
+    border: none;
+    background: none;
+    outline: none;
+    padding: 0;
+    color: #f0f5fb;
+    font-size: 16px;
+    line-height: 40px;
+    width: 0;
+    transition: 1s;
+}
+
+::-webkit-input-placeholder {
+    color: #1e3754;
+}
+
+.botao {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #0a1b2d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 1s;
+}
+
+.barra_pesquisa:hover > .pesquisa_txt {
+    width: 240px;
+    padding: 0 6px;
+}
+
+.barra_pesquisa:hover > .botao {
+    background-color: #f0f5fb;
+}
+
+.principal {
+    width: 800px;
+    margin: auto;
+    display: inline-block;
+}
+
+
+
+.img {
+    display: flex;
+}
+
+.linha {
+    display: flex;
+    max-width: 400px;
+    max-height: 400px;
+    left: 200px;
+}
