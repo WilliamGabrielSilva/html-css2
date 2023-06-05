@@ -1,18 +1,18 @@
-body {
-    margin: 0;
+input {
+    outline: black;
 }
 
-.barra-pesquisa {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    ///////////////850222222222222222
-}
-
-.botao {
-    width: 40px;
-    height: 40px;
+button{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
     border-radius: 50%;
+    border-width: 1.3px;
+    border-color: rgb(218, 27, 218);
+}
 
+button:active {
+    transform: scale(0.95);
 }

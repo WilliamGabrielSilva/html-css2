@@ -8,11 +8,18 @@
     <link rel="stylesheet" href="dark-mode.css">
 </head>
 <body>
-    <div class="barra-pesquisa">
-        <input type="text" class="caixa-pesquisa" placeholder="Pesquisar">
-        <a href="#" class="botao">
-            <img src="lupa-de-detetive.svg" alt="lupa" height="25" width="25">
-        </a>
-    </div>
+    <label for="cor">Insira Uma Cor</label><br>
+    <input type="text" id="cor" name="cor" onchange="alterar_cor()"><br><br>
+    
+    <button id="txt" onmouseenter="txt()" onmouseout="text()">clique</button>
+
+    <script>
+        seletor = document.getElementById('cor')
+        var texto = document.getElementById('txt')
+
+        function alterar_cor () {
+            document.body.style.backgroundColor = seletor.value
+        }
+    </script>
 </body>
 </html>
