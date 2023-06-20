@@ -1,0 +1,115 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    padding: 0;
+    margin: auto;
+    width: 1000%;
+    height: 80px;
+    background-color: #091f36;
+}
+
+@import url('https://fonts.googleapis.com/css2?family= Open +Sans & display=swap');
+
+body {
+    margin: 0;
+    width: 100vh;
+    height: 100vh;
+    background-image: linear-gradient(#AAACFF, #AABBFF);
+}
+
+.caixa-pesquisa {
+    position: absolute;
+    top: 10%;
+    left: 30px;
+    margin-top: 7px;
+    background: #0a1b2d;
+    height: 40px;
+    border-radius: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.barra-pesquisa {
+    border: none;
+    background: none;
+    outline: none;
+    padding: 0;
+    color: #f0f5fb;
+    font-size: 16px;
+    line-height: 40px;
+    width: 0;
+    transition: 1s;
+    font-family: 'Open Sans', sans-serif;
+}
+
+::-webkit-input-placeholder {
+    color: #1e3754;
+}
+
+.botao {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #0a1b2d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 1s;
+}
+
+
+.barra-nav {
+    background-color: black;
+}
+
+#content {
+    position: absolute;
+    left: 700px;
+    top: 105px;
+    width: 70px;
+    height: 30px;
+    border: none;
+    background-color: #1e3754;
+    color: #f0f5fb;
+    border-radius: 3px;
+}
+
+#about {
+    position: absolute;
+    left: 880px;
+    top: 105px;
+    width: 70px;
+    height: 30px;
+    border: none;
+    background-color: #1e3754;
+    color: #f0f5fb;
+    border-radius: 3px;
+}
+
+#contact {
+    position: absolute;
+    left: 790px;
+    top: 105px;
+    width: 70px;
+    height: 30px;
+    border: none;
+    background-color: #1e3754;
+    color: #f0f5fb;
+    border-radius: 3px;
+}
+
+#content:hover {
+    background-color: #1e3754b6;
+}
+
+#about:hover {
+    background-color: #1e3754b6;
+}
+
+#contact:hover {
+    background-color: #1e3754b6;
+}
