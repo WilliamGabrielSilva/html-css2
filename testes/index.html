@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="Logo-loja-roupa.png" alt="logo" width="1100">
+        <nav>
+            <div class="caixa-pesquisa">
+                <input type="text" class="barra-pesquisa" placeholder="Pesquisar" id="comp">
+                <a href="#" class="botao" onclick="tam()">
+                    <img src="lupa-arredondada.svg" alt="lupa" width="30" height="20">
+                </a>
+            </div>
+            <a href="#"><button id="content">content</button></a>
+            <a href="#"><button id="about">about</button></a>
+            <a href="#"><button id="contact">contact</button></a>
+        </nav>
+    </header>
+
+    <script>
+        let tamanho = document.getElementById('comp')
+        let mtamanho = document.getElementById('img')
+
+        function tam() {
+            tamanho.style.width = '260px'
+            tamanho.style.padding = '0 6px'
+        }
+    </script>
+</body>
+</html>
