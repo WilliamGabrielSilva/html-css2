@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Área da Parede</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Calcule a área da sua parede!</h1>
+    <div class="container">
+        <p><label for="txtaltura">Informe a <strong>altura</strong> da parede em metros: </label></p><input type="number" name="txtaltura" id="txtaltura" class="block"> 
+        <p><label for="txtcomp">Informe o <strong>comprimento</strong> da parede em metros: </label></p><input type="number" name="txtcomp" id="txtcomp" class="block">
+        <input type="button" value="enviar" onclick="calcular()" id="botao">
+        <div id="result">
+        
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
