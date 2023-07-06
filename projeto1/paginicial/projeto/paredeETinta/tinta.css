@@ -1,0 +1,72 @@
+body {
+    background-color: rgb(118, 138, 253);
+    height: 100vh;
+}
+
+h1{
+    color: white;
+    text-align: center;
+}
+
+.container {
+    max-width: 580px;
+    background-color: rgba(255, 255, 255, 0.788);
+    padding: 20px;
+    border-radius: 7px;
+    font: normal 16pt Arial;
+    margin: auto;
+}
+
+input[type="number"]{
+    width: 570px;
+    height: 30px;
+    border-radius: 8px;
+    border: 1px solid black;
+    background-color: rgba(255, 255, 255, 0.829);
+    outline: none;
+    font-size: 20px;
+    text-align: center;
+
+}
+
+input::-webkit-inner-spin-button, input::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+}
+
+input[type="button"] {
+    margin-top: 15px;
+    width: 570px;
+    height: 40px;
+    background-color: rgba(255, 255, 255, 0.795);
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+}
+
+#res{
+    width: 580px;
+    background-color: rgba(255, 255, 255, 0.788);
+    height: 70px;
+    text-align: center;
+    margin: auto;
+    padding: 20px;
+    border-radius: 7px;
+    margin-top: -10px;
+    font-size: 20px;
+}
+
+#btn {
+    margin-top: 50px;
+    margin-left: 65px;
+    height: 30px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+footer p {
+    color: white;
+    text-align: center;
+    font-size: 22px;
+}
