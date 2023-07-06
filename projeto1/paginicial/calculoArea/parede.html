@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Área da Parede</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Calculo de área</h1>
+    </header>
+
+    <section>
+        <div class="container">
+            <p><label for="txtaltura">Informe a <strong>altura</strong> em metros: </label></p>
+            <input type="number" name="txtaltura" id="txtaltura" class="block">
+            <p><label for="txtcomp">Informe o <strong>comprimento</strong> em metros: </label></p>
+            <input type="number" name="txtcomp" id="txtcomp" class="block">
+            <input type="button" value="enviar" onclick="calcular()" id="botao">
+            <div id="result">
+        
+            </div>
+        </div>
+        <button id="btn" onclick="voltar()">Voltar para página inicial</button>
+    </section>
+    <footer>
+        <p>&copy; WilliamGabrielSilva</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

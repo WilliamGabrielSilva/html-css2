@@ -10,7 +10,14 @@ function calcular() {
 
     let area = (altura*comprimento)
 
-    res.innerHTML = `A área total da parede é de <strong>${area}m²</strong>`
+    res.innerHTML = `A área total é de <strong>${area}m²</strong>`
 
     
 }
+
+function voltar(){
+    history.back()
+}
+
+document.getElementById('btn').addEventListener('click', voltar);
+

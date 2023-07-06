@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calcular o total de tinta para uma parede</title>
+    <link rel="stylesheet" href="tinta.css">
+</head>
+<body>
+    <header>
+        <h1>Calcule o Total de Tinta Necessário Para Pintar a Parede</h1>
+    </header>
+    <section>
+        <div class="container">
+            <p><label for="altura">Informe a <strong>Altura</strong> da parede: </label>
+            <input type="number" name="altura" id="altura"></p>
+            <p><label for="altura">Informe o <strong>Comprimento</strong> da parede: </label>
+            <input type="number" name="comp" id="comp"></p>
+            <p><label for="metrosq">Informe quantos <strong>Metros Quadrados</strong> um litro da tinta preenche: </label>
+            <input type="number" name="metrosq" id="metrosq"></p>
+            <input type="button" value="Calcular" onclick="calcular()">
+        </div>
+        <div id="res">
+
+        </div>
+    </section>
+    <footer>
+        <p>&copy; WilliamGabrielSilva</p>
+    </footer>
+
+    <script src="tinta.js"></script>
+</body>
+</html>
